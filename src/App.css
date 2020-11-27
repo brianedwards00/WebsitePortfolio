@@ -85,3 +85,14 @@ li:nth-child(2) .color {
 li:nth-child(3) .color {
   background: #00250b;
 }
+.link{
+  color: blue;
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.link:hover{
+  color: yellow;
+  transition: color 200ms linear;
+}
