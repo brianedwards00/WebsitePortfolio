@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'opensans';
+  src: url('Fonts/open-sans.regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'melanserif';
   src: url('Fonts/MelancholySerif-zoGL.otf') format('opentype');
   font-weight: normal;
@@ -26,7 +33,7 @@ section{
 
 
   background: 
-    linear-gradient(to right, #4da4dd, #03446e) border-box;
+    linear-gradient(to right, #4da4dd,  #033a61) border-box;
     
 }
 
@@ -80,13 +87,13 @@ li:first-child .color {
   background: #033a61;
 }
 li:nth-child(2) .color {
-  background: rgb(119, 119, 5);
+  background: rgb(158, 158, 9);
 }
 li:nth-child(3) .color {
   background: #00250b;
 }
 .link{
-  color: blue;
+  color: rgb(158, 158, 9);
   border-bottom: 1px dotted #000;
   text-decoration: none;
   transition: color 200ms linear;
