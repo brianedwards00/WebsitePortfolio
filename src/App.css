@@ -19,22 +19,58 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'montserrat';
+  src: url('Fonts/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'josefin';
+  src: url('Fonts/JosefinSans-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.headerline {
+  width: 0%;
+  height: 3px;
+  transition: width 0.5s;
+  background: 
+    linear-gradient(to right, #4da4dd,  #033a61) border-box;
+}
+
+.header:hover .headerline {
+  width: 100%;
+}
+
+
+
 section{
   display: block;
   width: 80px;
   height: 5px;
   margin: 10px auto;
-
-  
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-  
-
-
   background: 
     linear-gradient(to right, #4da4dd,  #033a61) border-box;
     
+}
+
+.reviewsText::-webkit-scrollbar {
+  display:none;
+}
+
+.aboutText::-webkit-scrollbar {
+  display:none;
+}
+
+html {
+  
+}
+
+body::-webkit-scrollbar {
+  display:none;
 }
 
 .circle {
@@ -86,13 +122,23 @@ li:nth-child(3) .color {
 li:first-child .color {
   background: #033a61;
 }
+li:first-child .color:hover {
+  background: #0095ff;
+}
 li:nth-child(2) .color {
   background: rgb(158, 158, 9);
+}
+li:nth-child(2) .color:hover {
+  background: rgb(255, 251, 0);
 }
 li:nth-child(3) .color {
   background: #00250b;
 }
+li:nth-child(3) .color:hover {
+  background: rgb(0, 255, 76);
+}
 .link{
+  
   color: rgb(158, 158, 9);
   border-bottom: 1px dotted #000;
   text-decoration: none;
