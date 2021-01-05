@@ -74,6 +74,31 @@
   font-weight: normal;
   font-style: normal;
 }
+.link{
+  font-size: 40px;
+  color: rgb(158, 158, 9);
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.link.one {
+  width:475px;
+}
+.link.two {
+  width:290px;
+}
+.link.three {
+  width:325px;
+}
+.link.four {
+  width:390px;
+}
+
+.link:hover{
+  color: yellow;
+  transition: color 200ms linear;
+}
 
 .headerline {
   width: 0%;
@@ -122,10 +147,37 @@
 }
 
 .aboutText{
+  margin-top: 20px;
   font-size: 26px;
   margin-left: 30px;
   margin-right: 0px;
+  text-align:justify;
+  text-justify:inter-word;
 }
+
+.pastText {
+ font-size: 10px;
+}
+
+.about {
+  left: 40%;
+  width: 50%;
+}
+
+.pastBody{
+  font-size: 30px;
+}
+
+.past {
+  left:25%;
+  width:50%;
+}
+
+.arrow.three {
+  position: ;
+  left: ;
+}
+
 
 @media only screen and (max-width:1430px) {
   .header.one {
@@ -151,6 +203,9 @@
   }
   .aboutText {
     font-size: 16px;
+  }  
+  .link.one {
+    width:350px;
   }
 
 }
@@ -180,10 +235,45 @@
   }
   .cat{
     max-width: 75%;
-    left: 10%;
+    top:100px;
+    left: 60%;
   }
   .aboutText {
     font-size: 16px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 120%;
+    text-align:left;
+  }
+  .sunglasses {
+    max-width: 75%;
+    top: 125px;
+    left: 60%;
+  }
+  .about {
+    left: 25%;
+  }
+  .link {
+    font-size: 20px;
+  }
+  .link.one {
+    width:200px;
+  }
+  .link.two {
+    width:150px;
+  }
+  .link.three {
+    width:175px;
+  }
+  .link.four {
+    width:190px;
+  }
+  .pastBody {
+    font-size: 16px;
+  }
+
+  .arrow.three {
+    position: relative;
   }
 }
 
@@ -194,7 +284,7 @@
   }
 .aboutText {
   font-size: 30px;
-}
+  }
 }
 
 .header:hover .headerline {
@@ -282,10 +372,10 @@ div::-webkit-scrollbar-thumb:hover {
 
 @keyframes MoveUpDown2 {
   0%, 100% {
-    bottom: -15px;
+    top: -25px;
   }
   50% {
-    bottom: -25px;
+    top: -20px;
   }
 }
 
@@ -352,16 +442,4 @@ li:nth-child(3) .color {
 }
 li:nth-child(3) .color:hover {
   background: rgb(0, 255, 76);
-}
-.link{
-  
-  color: rgb(158, 158, 9);
-  border-bottom: 1px dotted #000;
-  text-decoration: none;
-  transition: color 200ms linear;
-}
-
-.link:hover{
-  color: yellow;
-  transition: color 200ms linear;
 }
