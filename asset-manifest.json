@@ -1,31 +1,29 @@
 {
   "files": {
-    "main.css": "/WebsitePortfolio/static/css/main.3134cbbc.chunk.css",
-    "main.js": "/WebsitePortfolio/static/js/main.8f30738a.chunk.js",
-    "main.js.map": "/WebsitePortfolio/static/js/main.8f30738a.chunk.js.map",
+    "main.css": "/WebsitePortfolio/static/css/main.5f6931e4.chunk.css",
+    "main.js": "/WebsitePortfolio/static/js/main.f6cc690e.chunk.js",
+    "main.js.map": "/WebsitePortfolio/static/js/main.f6cc690e.chunk.js.map",
     "runtime-main.js": "/WebsitePortfolio/static/js/runtime-main.fb18a51e.js",
     "runtime-main.js.map": "/WebsitePortfolio/static/js/runtime-main.fb18a51e.js.map",
     "static/css/2.ec02d681.chunk.css": "/WebsitePortfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.b47374e4.chunk.js": "/WebsitePortfolio/static/js/2.b47374e4.chunk.js",
-    "static/js/2.b47374e4.chunk.js.map": "/WebsitePortfolio/static/js/2.b47374e4.chunk.js.map",
+    "static/js/2.65314508.chunk.js": "/WebsitePortfolio/static/js/2.65314508.chunk.js",
+    "static/js/2.65314508.chunk.js.map": "/WebsitePortfolio/static/js/2.65314508.chunk.js.map",
     "static/js/3.32dcf015.chunk.js": "/WebsitePortfolio/static/js/3.32dcf015.chunk.js",
     "static/js/3.32dcf015.chunk.js.map": "/WebsitePortfolio/static/js/3.32dcf015.chunk.js.map",
     "index.html": "/WebsitePortfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/WebsitePortfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.3134cbbc.chunk.css.map": "/WebsitePortfolio/static/css/main.3134cbbc.chunk.css.map",
-    "static/js/2.b47374e4.chunk.js.LICENSE.txt": "/WebsitePortfolio/static/js/2.b47374e4.chunk.js.LICENSE.txt",
+    "static/css/main.5f6931e4.chunk.css.map": "/WebsitePortfolio/static/css/main.5f6931e4.chunk.css.map",
+    "static/js/2.65314508.chunk.js.LICENSE.txt": "/WebsitePortfolio/static/js/2.65314508.chunk.js.LICENSE.txt",
     "static/media/App.css": "/WebsitePortfolio/static/media/open-sans.regular.17e98b9e.ttf",
     "static/media/bg.81260488.jpg": "/WebsitePortfolio/static/media/bg.81260488.jpg",
-    "static/media/building.73a18ef0.jpg": "/WebsitePortfolio/static/media/building.73a18ef0.jpg",
     "static/media/cat.dec1145f.jpg": "/WebsitePortfolio/static/media/cat.dec1145f.jpg",
-    "static/media/orleans.d1ea7846.jpg": "/WebsitePortfolio/static/media/orleans.d1ea7846.jpg",
     "static/media/title.0ad7257a.png": "/WebsitePortfolio/static/media/title.0ad7257a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fb18a51e.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.b47374e4.chunk.js",
-    "static/css/main.3134cbbc.chunk.css",
-    "static/js/main.8f30738a.chunk.js"
+    "static/js/2.65314508.chunk.js",
+    "static/css/main.5f6931e4.chunk.css",
+    "static/js/main.f6cc690e.chunk.js"
   ]
 }
