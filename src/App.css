@@ -76,7 +76,7 @@
 }
 .link{
   font-size: 40px;
-  color: rgb(158, 158, 9);
+  color:white;
   border-bottom: 1px dotted #000;
   text-decoration: none;
   transition: color 200ms linear;
@@ -86,17 +86,20 @@
   width:475px;
 }
 .link.two {
-  width:290px;
+  width:350px;
 }
 .link.three {
-  width:325px;
+  width:375px;
 }
 .link.four {
-  width:390px;
+  width:450px;
+}
+.link.five {
+  width:175px;
 }
 
 .link:hover{
-  color: yellow;
+  color: black;
   transition: color 200ms linear;
 }
 
@@ -131,6 +134,11 @@
   top: 15px;
   font-size: 35px;
 }
+.header.five {
+  top: 250px;
+  font-size: 35px;
+  width: 180px;
+}
 
 .cat{
   max-width: 50%;
@@ -148,9 +156,9 @@
 
 .aboutText{
   margin-top: 20px;
-  font-size: 26px;
+  font-size: 25px;
   margin-left: 30px;
-  margin-right: 0px;
+  margin-right: -50px;
   text-align:justify;
   text-justify:inter-word;
 }
@@ -166,6 +174,7 @@
 
 .pastBody{
   font-size: 30px;
+  
 }
 
 .past {
@@ -174,10 +183,33 @@
 }
 
 .arrow.three {
-  position: ;
+  position: relative;
   left: ;
 }
 
+.arrow.four {
+  position: relative;
+}
+
+.reviews {
+  left:25%;
+  width:50%;
+}
+
+.reviewText {
+  font-size: 25px;
+  position: relative;
+  left: ;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+.reviewPlace {
+  font-size:15px; 
+}
+.contactEmail {
+  font-size:30px;
+}
 
 @media only screen and (max-width:1430px) {
   .header.one {
@@ -202,11 +234,22 @@
     top:150px;
   }
   .aboutText {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: left;
   }  
   .link.one {
-    width:350px;
+    width:375px;
   }
+  .reviews {
+    left:25%;
+    width:50%;
+  }
+  .reviewText {
+    text-align:left;
+    width: 125%;
+    left: -25%;
+    text-align:left;
+    }
 
 }
 
@@ -260,20 +303,32 @@
     width:200px;
   }
   .link.two {
-    width:150px;
-  }
-  .link.three {
     width:175px;
   }
+  .link.three {
+    width:200px;
+  }
   .link.four {
-    width:190px;
+    width:230px;
+  }
+  .link.five {
+    font-size: 25px;
+    width:115px;
   }
   .pastBody {
     font-size: 16px;
   }
-
-  .arrow.three {
-    position: relative;
+  .reviewText {
+    font-size: 16px;
+    width: 125%;
+    left: -35%;
+    text-align:left;
+  }
+  .reviewPlace {
+    font-size:12px; 
+  }
+  .contactEmail {
+    font-size:20px;
   }
 }
 
@@ -284,6 +339,17 @@
   }
 .aboutText {
   font-size: 30px;
+  }
+  .reviewText {
+    font-size: 35px;
+    text-align:left;
+  }
+  .reviewPlace {
+    font-size:25px; 
+  }
+  .link.five {
+    font-size: 50px;
+    width:200px;
   }
 }
 
@@ -303,20 +369,16 @@ section{
     
 }
 
-.reviewsText::-webkit-scrollbar {
-  display:none;
-}
 
 .aboutText::-webkit-scrollbar {
   display:none;
 }
 
 html,body {
-  -webkit-user-select: none;  /* Chrome, Safari */
-  -moz-user-select: none;     /* Firefox */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Change for Contact EMAIL */
+  user-select: none;
 }
+
+
 
 body::-webkit-scrollbar {
   display:none;
@@ -379,6 +441,32 @@ div::-webkit-scrollbar-thumb:hover {
   }
 }
 
+.arrow.three:hover {
+  animation: MoveUpDown3 1s linear infinite;
+}
+
+@keyframes MoveUpDown3 {
+  0%, 100% {
+    top: 0px;
+  }
+  50% {
+    top: 5px;
+  }
+}
+
+.arrow.four:hover {
+  animation: MoveUpDown4 1s linear infinite;
+}
+
+@keyframes MoveUpDown4 {
+  0%, 100% {
+    top: 0px;
+  }
+  50% {
+    top: 5px;
+  }
+}
+
 .circle {
   position: absolute;
   padding: 0;
@@ -428,18 +516,9 @@ li:nth-child(3) .color {
 li:first-child .color {
   background: #033a61;
 }
-li:first-child .color:hover {
-  background: #0095ff;
-}
 li:nth-child(2) .color {
   background: rgb(158, 158, 9);
 }
-li:nth-child(2) .color:hover {
-  background: rgb(255, 251, 0);
-}
 li:nth-child(3) .color {
   background: #00250b;
-}
-li:nth-child(3) .color:hover {
-  background: rgb(0, 255, 76);
 }
