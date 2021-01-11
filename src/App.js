@@ -6,7 +6,7 @@ import {IoIosOpen} from "react-icons/io"
 import {SiGmail} from "react-icons/si"
 import anu from './Images/anu.png'
 import cat from './Images/cat.jpg'
-
+import cat2 from './Images/cat2.jpg'
 import bg from './Images/bg.jpg'
 import {Link, animateScroll as scroll} from "react-scroll"
 import AOS from "aos";
@@ -24,7 +24,7 @@ render() {
 return(
 <html>
    <body>
-      <div style={{position:"absolute",backgroundSize:"100% 100%",backgroundImage: `url(${bg})`, width:"100%",height:"10000px"}}>
+      <div style={{position:"absolute",backgroundSize:"100% 100%",backgroundImage: `url(${bg})`, width:"100%",height:"8350px"}}>
       <div style={{height:"75px",background:"white",position:"sticky",top:"0",width:"100%",zIndex:"100", overflowX:"auto", overflowY:"hidden"}}>
       <div className="circle">
          <ul className="inner">
@@ -43,22 +43,22 @@ return(
          </ul>
       </div>
       <div style={{position:"relative"}}>
-         <Link className="header one" style={{fontFamily:"acmeregular",position:"absolute",color:"black",
-         cursor:"pointer", letterSpacing: "0.05em"}} offset = {-350}
+         <Link className="header one" style={{fontFamily:"Helvetica",position:"absolute",color:"black",
+         cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
          activeClass="active" to="contact" spy={true} smooth={true} duration={1500} >Contact
          <header className="headerline"/>
          </Link>
-         <Link className="header two" style={{fontFamily:"acmeregular",position:"absolute",color:"black",
+         <Link className="header two" style={{fontFamily:"Helvetica",position:"absolute",color:"black",
          cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
          activeClass="active" to="reviews" spy={true} smooth={true} duration={1500} >Reviews
          <header className="headerline"/>
          </Link>
-         <Link className="header three" style={{fontFamily:"acmeregular",position:"absolute",color:"black",
+         <Link className="header three" style={{fontFamily:"Helvetica",position:"absolute",color:"black",
          cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
          activeClass="active" to="past" spy={true} smooth={true} duration={1500} >Projects
          <header className="headerline"/>
          </Link>
-         <Link className="header four" style={{fontFamily:"acmeregular",position:"absolute",color:"black",
+         <Link className="header four" style={{fontFamily:"Helvetica",position:"absolute",color:"black",
          cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
          activeClass="active" to="about" spy={true} smooth={true} duration={1000} >About
          <header className="headerline"/>
@@ -68,9 +68,9 @@ return(
       <div style = {{position:"relative",width:"100%"}}>
          <img name ="bg" className="bg" src= {title} style={{width:"100%",maxWidth:"1920px",maxHeight:"900px",display:"block",marginLeft:"auto",marginRight:"auto"}}/>
          <div style={{position:"absolute",bottom:"15px",right:"10px"}}>
-            <b style={{fontFamily:"acmeregular",color:"black",
+            <b style={{fontFamily:"Helvetica",color:"black",
             fontSize:"25px", letterSpacing: "0.05em"}}>Click
-            <Link className="arrow one" style={{position:"relative",top:"30px",fontFamily:"acmeregular",color:"black",
+            <Link className="arrow one" style={{position:"relative",top:"30px",color:"black",
             fontSize:"25px", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
             activeClass="active" to="about" spy={true} smooth={true} duration={1500} >
             <AiFillCaretDown size={75}/>
@@ -79,7 +79,7 @@ return(
             </b>
          </div>
       </div>
-      <div style={{position:"absolute",width:"100%",top:"2000px",height:"1000px"}}>
+      <div style={{position:"absolute",width:"100%",top:"1500px",height:"1000px"}}>
          <div name="about" className="about" data-aos="fade-right"  data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500" 
             style={{position:"absolute",textAlign:"center",height:"70vh"}}>
@@ -105,8 +105,7 @@ return(
                Therefore, I intend to pursue a career that implements both of my passions, such as a UX Designer or a Machine Learning Engineer.
                However, I am not limited to just this as I am flexible to many other subfields in computer science. <br/>
                </p>
-               <Link className="arrow two" style={{ position:"relative", top:"-25px",
-               fontFamily:"acmeregular",color:"black",fontSize:"25px", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
+               <Link className="arrow two" style={{ position:"relative", top:"-25px",color:"black",fontSize:"25px", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
                activeClass="active" to="past" spy={true} smooth={true} duration={1500} >
                <AiFillCaretDown size={100}/>
                <header className="headerline"/>
@@ -119,7 +118,7 @@ return(
             style= {{border:"5px solid #033a61",borderRadius:"25px"}} src= {cat}/>
          </div>
       </div>
-<div style={{position:"absolute",width:"100%",top:"4000px",height:"1000px"}}>
+<div style={{position:"absolute",width:"100%",top:"3000px",height:"1000px"}}>
          <div name="past" className="past" data-aos="fade-right"  data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500" 
             style={{position:"absolute",textAlign:"center",height:"70vh"}}>
@@ -166,7 +165,7 @@ return(
 
       </p>
       </div>
-      <Link className="arrow three" style={{fontFamily:"acmeregular",color:"black",
+      <Link className="arrow three" style={{color:"black",
       fontSize:"25px", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
       activeClass="active" to="reviews" spy={true} smooth={true} duration={1500} >
       <AiFillCaretDown size={100}/>
@@ -175,7 +174,7 @@ return(
       </div>
          </div>
       </div>
-      <div style={{position:"absolute",width:"100%",top:"6800px"}}>
+      <div style={{position:"absolute",width:"100%",top:"5250px"}}>
          <div name="reviews" className="reviews" data-aos="fade-right"  data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500" 
             style={{position:"absolute",textAlign:"center",height:"70vh"}}>
@@ -202,7 +201,7 @@ return(
    programmer(teammate)."
    </p>
    </p>
-   <Link className="arrow four" style={{fontFamily:"acmeregular",color:"black", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-350}
+   <Link className="arrow four" style={{color:"black", cursor:"pointer", letterSpacing: "0.05em"}} offset = {-75}
    activeClass="active" to="contact" spy={true} smooth={true} duration={1500} >
    <AiFillCaretDown size={100}/>
    <header className="headerline"/>
@@ -211,7 +210,7 @@ return(
       </div>
       <div name="contact" data-aos="fade-right"  data-aos-anchor-placement="top-bottom"
    data-aos-duration="1500"
-   style={{position:"relative",top:"8000px"}}>
+   style={{position:"relative",top:"6000px"}}>
    <span style={{textAlign:"center",display:"block",fontFamily: "montserrat", fontSize:"50px",color:"white"}}>Contact
    </span>
    <section/>
@@ -232,10 +231,15 @@ return(
          </span>
       </a>
       <span className="contactEmail" style={{display:"block",fontFamily:"opensans",color:"white"}}>MisterBrianEdwards@gmail.com</span>
+      <div className="cat_divtwo">
+            <img className="cattwo" data-aos="fade-right"  data-aos-anchor-placement="top-bottom" data-aos-offset="-135"
+            data-aos-duration="1500"
+            style= {{border:"5px solid #033a61",borderRadius:"25px"}} src= {cat2}/>
+      </div>
    </div>
    <Link data-aos="fade-right"  data-aos-anchor-placement="bottom"
    data-aos-duration="1000"
-   className="header five" style={{fontFamily:"acmeregular",position:"absolute",color:"black",
+   className="header five" style={{fontFamily:"Helvetica",position:"absolute",color:"black",
          cursor:"pointer", letterSpacing: "0.05em",right:"100px"}} offset = {-75}
          activeClass="active" to="bg" spy={true} smooth={true} duration={1000} >Top of Page
          <header className="headerline"/>

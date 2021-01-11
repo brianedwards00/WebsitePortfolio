@@ -1,20 +1,6 @@
 @font-face {
-  font-family: 'acmeregular';
-  src: url('Fonts/Acme-Regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'opensans';
   src: url('Fonts/open-sans.regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'melanserif';
-  src: url('Fonts/MelancholySerif-zoGL.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,47 +19,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: zombie;
-  src: url('Fonts/Zombified.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: belithel;
-  src: url('Fonts/BelithelDemoRegular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: valentine;
-  src: url('Fonts/Valentine\ Dream.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: condensed;
-  src: url('Fonts/OpenSans-CondLight.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: robo;
-  src: url('Fonts/RobotoMono-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: quesha;
-  src: url('Fonts/Quesha-gndR.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
 .link{
   font-size: 40px;
   color:white;
@@ -130,14 +75,14 @@
 }
 
 .header.four {
-  left:61%;
+  left:62%;
   top: 15px;
   font-size: 35px;
 }
 .header.five {
   top: 250px;
   font-size: 35px;
-  width: 180px;
+  width: 210px;
 }
 
 .cat{
@@ -152,6 +97,16 @@
   width: 50%;
   max-width: 1000px;
 
+}
+
+.cattwo{
+  max-width: 250px;
+  position: relative;
+  top: 120px;
+}
+
+.cat_divtwo{
+  width: 100%;
 }
 
 .aboutText{
@@ -257,17 +212,17 @@
 
 @media only screen and (max-width:720px) {
   .header.one {
-    left: 270px;
+    left: 285px;
     font-size: 16px;
     top: 27px;
   }
   .header.two {
-    left:200px;
+    left:210px;
     font-size: 16px;
     top: 27px;
   }
   .header.three {
-    left: 130px;
+    left: 135px;
     font-size: 16px;
     top: 27px;
   }
@@ -330,6 +285,9 @@
   .contactEmail {
     font-size:20px;
   }
+  .cattwo{
+    max-width: 175px;
+  }
 }
 
 @media only screen and (min-width:2000px) {
@@ -350,6 +308,9 @@
   .link.five {
     font-size: 50px;
     width:200px;
+  }
+  .cattwo{
+    max-width: 300px;
   }
 }
 
@@ -514,11 +475,11 @@ li:nth-child(3) .color {
   transform: rotate(240deg) skewY(30deg);
 }
 li:first-child .color {
-  background: #033a61;
+  background: #270091;
 }
 li:nth-child(2) .color {
-  background: rgb(158, 158, 9);
+  background: rgb(3, 178, 209);
 }
 li:nth-child(3) .color {
-  background: #00250b;
+  background: #ff0000;
 }
