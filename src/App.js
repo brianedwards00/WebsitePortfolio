@@ -91,7 +91,7 @@ return(
                <p className="aboutText" style={{ overflow:"auto",fontFamily:"opensans",color:"white"}}>
                I am computer programmer currently in my third year of Computer Science at California State
                University, Fullerton. My background includes working on projects from a diverse set of languages. 
-               One such example is developing a web application for an internship project that took place at a National Laboratory
+               One such example is developing a web application as an internship project that took place at a National Laboratory
                in the summer of 2020.
                <br/><br/> 
                Fueled by my desire to positively impact society, I consider myself ambitious, 
@@ -132,7 +132,8 @@ return(
       Web Interface for Analyzing Microbiome Datasets <IoIosOpen/> <br/>
       </a>
       <p className="pastBody" style={{fontFamily:"opensans"}}>
-      Website application created as a full-stack developer intern at Pacific Northwest National Laboratory<br/>
+      User-friendly website application created for biologists to analyze their data automatically without needing to learn complex command line code
+      to run their analyzers separately, thus increasing productivity<br/>Intern at Pacific Northwest National Laboratory<br/>
       <em>React front-end (CSS/HTML/Javascript) with a Flask back-end (Python)</em><br/> <br/> 
       </p>
       </div>
