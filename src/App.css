@@ -129,7 +129,6 @@
 
 .pastBody{
   font-size: 30px;
-  
 }
 
 .past {
@@ -272,6 +271,8 @@
   }
   .pastBody {
     font-size: 16px;
+    margin-left: -25%;
+    margin-right: -30%;
   }
   .reviewText {
     font-size: 16px;
