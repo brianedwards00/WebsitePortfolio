@@ -29,9 +29,9 @@ Here, you can start the front-end in a local environment:
 - Opens [http://localhost:3000/WebsitePortfolio](http://localhost:3000/WebsitePortfolio) to view it in the browser.
 ---
 ## Future Work
--Adding more reviews/accomplishments as time goes on
--Change main picture
--When given more time, I plan to remake the entire website that truly displays my abilities
+- Adding more reviews/accomplishments as time goes on
+- Change main picture
+- When given more time, I plan to remake the entire website that truly displays my abilities
 ---
 ## Dependencies
 - [@testing-library/jest-dom](https://ghub.io/@testing-library/jest-dom): Custom jest matchers to test the state of the DOM
