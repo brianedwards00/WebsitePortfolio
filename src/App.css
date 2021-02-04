@@ -40,7 +40,7 @@
   width:450px;
 }
 .link.five {
-  width:175px;
+  width:250px;
 }
 
 .link:hover{
@@ -53,7 +53,7 @@
   height: 3px;
   transition: width 0.5s;
   background: 
-    linear-gradient(to right, #4da4dd,  #033a61) border-box;
+    linear-gradient(to right, #dd8353,#814b2e) border-box;
 }
 
 .header.one {
@@ -138,11 +138,12 @@
 
 .arrow.three {
   position: relative;
-  left: ;
+  top: -20px;
 }
 
 .arrow.four {
   position: relative;
+  top:-10px;
 }
 
 .reviews {
@@ -194,6 +195,7 @@
   .link.one {
     width:375px;
   }
+  
   .reviews {
     left:25%;
     width:50%;
@@ -308,7 +310,7 @@
   }
   .link.five {
     font-size: 50px;
-    width:200px;
+    width:300px;
   }
   .cattwo{
     max-width: 300px;
@@ -327,7 +329,7 @@ section{
   height: 5px;
   margin: 10px auto;
   background: 
-    linear-gradient(to right, #4da4dd,  #033a61) border-box;
+    linear-gradient(to right,  #dd8353,#814b2e) border-box;
     
 }
 
@@ -409,10 +411,10 @@ div::-webkit-scrollbar-thumb:hover {
 
 @keyframes MoveUpDown3 {
   0%, 100% {
-    top: 0px;
+    top: -20px;
   }
   50% {
-    top: 5px;
+    top: -15px;
   }
 }
 
@@ -422,10 +424,10 @@ div::-webkit-scrollbar-thumb:hover {
 
 @keyframes MoveUpDown4 {
   0%, 100% {
-    top: 0px;
+    top: -10px;
   }
   50% {
-    top: 5px;
+    top: -5px;
   }
 }
 
@@ -476,11 +478,11 @@ li:nth-child(3) .color {
   transform: rotate(240deg) skewY(30deg);
 }
 li:first-child .color {
-  background: #270091;
+  background: #033a61;
 }
 li:nth-child(2) .color {
-  background: rgb(3, 178, 209);
+  background: #3d444c;
 }
 li:nth-child(3) .color {
-  background: #ff0000;
+  background:#dd8353;
 }
